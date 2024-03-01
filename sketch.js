@@ -371,7 +371,7 @@ function setup() {
   let sty = random([0.0, 0.0, 0.0, 1.0])
   let speed = random([1., 1., 1., 1., 2., 2., 3., 1., 2., 3.])
   let gli = random([0.0, 0.0, 0.0, 1.0])
-  let rare = random([0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0])
+  let rare = 0//random([0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0])
 
   if (shaType == 1.0) {
     sty = 0.0
